@@ -9,55 +9,61 @@
 
 <body>
   <nav>
-    <a>
+    <a href="#" class="navLink firstNav">
       Plan your Visit
     </a>
-    <a>
+    <a href="#" class="navLink secondNav">
       Learn about the Park
     </a>
-    <a>
+    <a href="#" class="navLink thirdNav">
       Get Involved
     </a>
   </nav>
 
   <header>
-    <img src="assets/header_img.jpg" id="headerImg">
-    <h1>
-      Yosemite Park Guide
-    </h1>
-    <section id="headerInfo">
-      <p>Come explore California’s beautiful wilderness.</p>
-      <p>Always open. Reservations are not available or required to enter the park.</p>
-    </section>
+    <div id="headerImgContainer">
+      <img src="assets/header_img.jpg" id="headerImg">
+    </div>
+    <div id="headerText">
+      <section id="headerInfo">
+        <h1>
+          Yosemite Park Guide
+        </h1>
+
+        <p>Come explore California’s beautiful wilderness.</p>
+        <p id="secondParagraph">Always open. Reservations are not available or required to enter the park.</p>
+      </section>
+    </div>
   </header>
 
-  <section>
+  <section id="mainInfo">
     <p>
       Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the
       persistence of life, and the tranquility of the High Sierra.
     </p>
     <p>
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the
-      persistence of life, and the tranquility of the High Sierra.
+      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200
+      square
+      miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
     </p>
   </section>
 
-  <section>
-    <div class="container">
+  <section id="mainBody">
+    <div class="bodyImageContainer">
       <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" id="fireImg">
     </div>
     <p>
       Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the
       park’s
-      ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
+      ecosystems. This blog provides updates about fires in Yosemite. Check for <span>current fire restrictions</b>.
     </p>
-    <div class="container">
+    <div class="bodyImageContainer">
       <img src="https://image.flaticon.com/icons/svg/820/820374.svg" id="fireImg">
     </div>
     <p>
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park
-      entrance
-      fee upon arrival (there's no need to pay it in advance).
+      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span>park
+        entrance
+        fee</span> upon arrival (there's no need to pay it in advance).
     </p>
   </section>
 
@@ -65,19 +71,18 @@
     <div id='footerImgContainer'>
       <img src="assets/footer_img.jpg" id='footerImg'>
     </div>
+    <nav>
+      <a href="#" class="navLink firstNav">
+        Plan your Visit
+      </a>
+      <a href="#" class="navLink secondNav">
+        Learn about the Park
+      </a>
+      <a href="#" class="navLink thirdNav">
+        Get Involved
+      </a>
+    </nav>
   </footer>
-  <nav>
-    <a>
-      Plan your Visit
-    </a>
-    <a>
-      Learn about the Park
-    </a>
-    <a>
-      Get Involved
-    </a>
-  </nav>
-
 </body>
 
 </html>
