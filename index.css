@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+}
+html {
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navLink {
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 18%;
+}
+.firstNav {
+    background-color: #FF764E;
+}
+
+.secondNav {
+    background-color: #5ED3EB;
+}
+
+.thirdNav {
+   background-color: #FFCD69; 
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+}
+nav {
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 20px 0 20px 18%;
+}
+#headerImg {
+    border-radius: 50%;
+    width: 20vw;
+}
+#headerImgContainer {
+    height: 40vh;
+    display: inline-block;
+}
+img {
+    width: 15vw;
+}
+header {
+    width: 70vw;
+    margin: 0 auto;
+    height: 40vh;
+    margin: 0 auto;
+    display: block;
+}
+#headerText {
+    bottom: 20vw;
+    right: 20vw;
+    position: absolute;
+    display: inline-block;
+    height: 40vh;
+    text-align: center;
+}
+.container {
+    display: inline-block;
+    height: 100%;
+}
+#headerInfo p{
+    font-size: 1.2rem;
+    padding: 2vh 0px;
+}
+#secondParagraph {
+    width: 22vw;
+    margin: 0 auto;
+}
+.img, .text {
+    display: inline-block;
+}
+
+.img {
+    width: 40%;
+}
+
+.text {
+    width: 55%;
+} 
+
+#mainInfo {
+    width: 80vw;
+    margin: 5vh auto;
+    padding: 3vh 3vw;
+    background-color:#DDB9A3;
+    color: rgb(250, 242, 242);
+    text-align: center;
+}
+.bodyImageContainer {
+    width: 10vw;
+    margin: 0 auto;
+}
+.bodyImageContainer img{
+    width: 10vw;
+    margin: 0 auto;
+}
+span {
+    font-weight: bold;
+}
+#mainBody p {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0 33vw;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+footer nav {
+    background-color: #F9E7DC;
+    width: 100vw;
+}
+
+#footerImg {
+    width: 100vw;
+    height: 100vh;
+}
+
+#footerImgContainer {
+    height: 50vh;
+    overflow: hidden;
+}
